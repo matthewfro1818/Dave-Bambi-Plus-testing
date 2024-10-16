@@ -6,7 +6,6 @@ import flixel.graphics.frames.FlxFrame;
 import flixel.graphics.FlxGraphic;
 import flixel.addons.transition.Transition;
 import flixel.group.FlxGroup;
-import sys.FileSystem;
 import flixel.util.FlxArrayUtil;
 import flixel.addons.plugin.FlxScrollingText;
 import Alphabet;
@@ -21,6 +20,7 @@ import openfl.desktop.Clipboard;
 import flixel.system.debug.Window;
 #if desktop
 import sys.io.File;
+import sys.FileSystem;
 import openfl.display.BitmapData;
 #end
 import flixel.system.FlxBGSprite;
